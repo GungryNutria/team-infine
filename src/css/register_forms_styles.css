@@ -1,0 +1,22 @@
+.form-container{
+    border-radius: 10px;
+    width: 30%;
+    margin-top: 5%;
+    background-color: #0b0b11;
+}
+.form-container h1{
+    padding: 2%;
+}
+.form-container form{
+    width: 100%;
+}
+.form-container form input{
+    background-color: #202028;
+    margin: 1%;
+    width: 90%;
+    border: none;
+    padding: 2%;
+}
+.form-container form .orange-button{
+    background-color: #e15800;
+}

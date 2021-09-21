@@ -1,0 +1,64 @@
+.tournament-background{
+    background-image: url('../assets/imagenes/teams-banner.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+.tournaments-container{
+    width: 100%;
+    margin-top: 5%;
+}
+.tournaments-container h1{
+    font-size: 30px;
+}
+.tournaments-container p{
+    font-size: 20px;
+}
+.tournaments-container .tournaments{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.tournaments-container .tournaments .tournament-container{
+    background-size: cover;
+    width: 50%;
+}
+.tournaments-container .tournaments .tournament-container .tournament{
+    background-color: rgba(32, 32, 40, 0.5);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.tournaments-container .tournaments .tournament-container .tournament .col-12{
+    margin: 1%;
+    margin-bottom: 40%;
+    text-align: left;
+    width: 100%;
+}
+.tournaments-container .tournaments .tournament-container .tournament .col-3{
+    text-align: left;
+    width: 25%;
+}
+.tournaments-container .tournaments .tournament-container .tournament .col-3-orange{
+    cursor: pointer;
+    background-color: #e15800;
+    text-align: center;
+    width: 24%;
+}
+.tournaments-container .tournaments .tournament-container .tournament .col-12 p{
+    font-family: 10px;
+}
+.tournaments-container .tournaments .tournament-container .tournament .col-3 p{
+    font-size: 18px;
+    margin: 2%;
+    padding: 1%;
+}
+.tournaments-container .tournaments .tournament-container .tournament .col-3-orange p{
+    margin-top: 20px;
+}
+@media screen and (max-width:1024px){}
+@media screen and (max-width:770px){}
+@media screen and (max-width:600px){}

@@ -1,0 +1,95 @@
+.teams-container{
+    width: 98%;
+    padding: 3% 1%;
+    background-color: #0b0b11;
+}
+.teams-container h1{
+    font-size: 40px;
+}
+.teams-container p{
+    font-size: 30px;
+}
+.teams-container .teams{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+.teams-container .teams .team-page{
+    width: 30%;
+}
+.teams-container .teams .team-page .team{
+    border-radius: 7px;
+    background: rgba(32, 32, 40, 0.8);
+    padding: 1%;
+    margin: 2%;
+    width: 70%;
+}
+.teams-container .teams .team-page .team p{
+    color: #e15800;
+    font-weight: bold;
+    font-size: 20px;
+}
+.teams-container .teams .team-page .team .team-button{
+    width: 98%;
+    padding: 1%;
+    background: #e15800;
+}
+.teams-container .teams .team-page .team .team-button a{
+    font-weight: bold;
+    font-size: 20px;
+}
+.teams-container .teams .team{
+    border-radius: 7px;
+    background: #202028;
+    padding: 1%;
+    width: 20%;
+}
+.teams-container .teams .team p{
+    color: #e15800;
+    font-weight: bold;
+    font-size: 20px;
+}
+.teams-container .teams .team .team-button{
+    width: 99%;
+    padding: 1%;
+    background: #e15800;
+}
+.teams-container .teams .team .team-button a{
+    font-weight: bold;
+    font-size: 20px;
+}
+@media screen and (max-width:1024px){
+    .teams-container .teams .team{
+        margin: 1%;
+        width: 50%;
+    }
+    .teams-container .teams .team-page{
+        width: 50%;
+    }
+    .teams-container .teams .team-page .team{
+        border-radius: 7px;
+        background: #202028;
+        padding: 1%;
+        margin: 2%;
+        width: 70%;
+    }
+}
+@media screen and (max-width:770px){
+    .teams-container .teams .team-page{
+        width: 80%;
+    }
+}
+@media screen and (max-width:600px){
+    .teams-container .teams .team{
+        margin: 1%;
+        width: 90%;
+    }
+    .teams-container .teams .team-page{
+        width: 90%;
+    }
+    .teams-container .teams .team-page .team{
+        width: 90%;
+    }
+}

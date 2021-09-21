@@ -1,0 +1,26 @@
+.creators-container{
+    width: 100%;
+    margin-top: 5%;
+}
+.creators-container h1{
+    font-size: 30px;
+}
+.creators-container .creators{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.creators-container .creators .creator{
+    border-radius: 15px;
+    width: 30%;
+    padding: 1%;
+    background-image: url('../assets/imagenes/twitch-banner.jpg');
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+}
+@media screen and (max-width:1024px){}
+@media screen and (max-width:770px){}
+@media screen and (max-width:600px){}

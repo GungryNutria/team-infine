@@ -1,0 +1,74 @@
+.about-container{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.about-container .about{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.about-container .about .text{
+    text-align: left;
+    width: 40%;
+}
+.about-container .about .text h1{
+    font-size: 50px;
+}
+.about-container .about .text p{
+    text-align: justify;
+    font-size: 30px;
+}
+.about-container .about .text a{
+    font-size: 25px;
+}
+.about-container .about .video{
+    position: relative;
+    width: 40%;
+}
+@media screen and (max-width:1024px){
+    .about-container .about{
+        width: 90%;
+    }
+    .about-container .about .text{
+        text-align: center;
+        width: 100%;
+    }
+    .about-container .about .text h1{
+        font-size: 40px;
+    }
+    .about-container .about .text p{
+        text-align: center;
+        font-size: 30px;
+    }
+    .about-container .about .text a{
+        font-size: 25px;
+    }
+    .about-container .about .video{
+        margin-top: 5%;
+        position: relative;
+        width: 100%;
+    }
+    .about-container .about .video iframe{
+        width: 90%;
+    }
+}
+@media screen and (max-width:770px){}
+@media screen and (max-width:600px){
+    .about-container .about .video iframe{
+        margin-top: 1%;
+        height: 200px;
+    }
+    .about-container .about .text h1{
+        font-size: 20px;
+    }
+    .about-container .about .text p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .about-container .about .text a{
+        font-size: 15px;
+    }
+}

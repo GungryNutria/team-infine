@@ -1,0 +1,48 @@
+@import url('http://fonts.cdnfonts.com/css/akira-expanded');
+*{
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Akira Expanded', sans-serif;
+}
+p,a{
+    font-family: Arial;
+}
+body{
+    background-image: url(../assets/imagenes/fondo-home.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.padding-1{
+    padding: 1%;
+}
+.padding-2{
+    padding: 2%;
+}
+.orange-button{
+    
+    background-color: #e15800;
+}
+.outline-button{
+    
+    border: 1px solid #fff;
+}
+.no-margin{
+    margin-top: 0px;
+}
+@media screen and (max-width:1024px){
+    .home-background,.teams-background,.team-background{
+        background-repeat: no-repeat;
+        height: 50vh;
+        background-size: contain cover;
+    }
+}
+@media screen and (max-width:770px){
+}
+@media screen and (max-width:600px){
+}

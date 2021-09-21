@@ -1,0 +1,82 @@
+.header-tournament{
+    background-color: rgba(18, 16, 37, 0.5);
+    height: 70vh;
+}
+.header-tournament .overlay{
+    height: 70vh;
+}
+.header-tournament .section-header-tournament{
+    margin-top: 5%;
+    width: 70%;
+    background-color: #202028;
+}
+.header-tournament .section-header-tournament .row-1{
+    align-content: center;
+    text-align: left;
+    background-size: cover;
+    height: 500px;
+}
+.header-tournament .section-header-tournament .row-2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.header-tournament .section-header-tournament .row-3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    padding: 2%;
+}
+.header-tournament .section-header-tournament .row-3 .column-4-description{
+    
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    width: 40%;
+}
+.header-tournament .section-header-tournament .row-3 .column-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 10%;
+}
+.header-tournament .section-header-tournament .row-3 .column-4 p{
+    font-size: 20px;
+}
+.header-tournament .section-header-tournament .row-2 .column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 50%;
+}
+.header-tournament .section-header-tournament .row-2 .column img{
+    width: 40%;
+}
+.header-tournament .section-header-tournament .row-2 .column a{
+    font-size: 20px;
+    padding: 2%;
+    background-color: #e15800;
+}
+.header-tournament .section-header-tournament .row-1 h1{
+    padding: 1%;
+}
+.header-tournament .section-header-tournament .row-1 p{
+    font-size: 20px;
+    padding-left: 1%;
+}
+.tournament-teams-container{
+    width: 70%;
+    background-color: #202028;
+    margin-top: 15%;
+}
+.tournament-teams-container h1{
+    padding: 1%;
+    text-align: left;
+}
